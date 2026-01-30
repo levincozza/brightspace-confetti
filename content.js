@@ -3,6 +3,11 @@ let hasFired = false;
 function checkForSubmission() {
     if (hasFired) return;
 
+    let currentUrl = window.location.href;
+
+    // website check
+    if (!currentUrl.toLowerCase().includes("brightspace")) return;
+
     const bodyText = document.body.innerText.toLowerCase();
 
     const successPhrases = [
