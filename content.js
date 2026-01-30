@@ -72,6 +72,8 @@ document.addEventListener('keydown', (event) => {
     if (event.shiftKey && event.key.toLowerCase() === 'c') {
         console.log("Manual override activated.");
         hasFired = false;
+	// website check again
+    	if (!currentUrl.toLowerCase().includes("brightspace")) return;
         fireConfettiAndSound();
     }
 });
