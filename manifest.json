@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Brightspace Confetti & Sound",
-  "version": "1.1",
-  "description": "Plays confetti and a sound when you submit a Brightspace assignment.",
+  "name": "Brightspace Confetti Spaghetti",
+  "version": "1.2",
+  "description": "Mimics Canvas' revolutionary submission confetti on brightspace",
   "permissions": [
     "scripting"
   ],
