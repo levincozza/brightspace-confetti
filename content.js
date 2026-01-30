@@ -73,6 +73,7 @@ document.addEventListener('keydown', (event) => {
         console.log("Manual override activated.");
         hasFired = false;
 	// website check again
+	let currentUrl = window.location.href;
     	if (!currentUrl.toLowerCase().includes("brightspace")) return;
         fireConfettiAndSound();
     }
