@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Brightspace Confetti",
+  "version": "1.0",
+  "description": "Plays confetti and a sound when you submit a Brightspace assignment.",
+  "permissions": [
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["confetti.js", "content.js"]
+    }
+  ]
+}
